@@ -13,7 +13,7 @@ Submit completed Colab notebook showing generated output.
 
 ## Data
 
-Preprocessing of the data/data used
+The data found in this tutorial is a data set from Tensor Flow of a data set full of Portuguese-English translations. This dataset has about 52,000 training sets, 1,200 validation sets, and 1,800 test cases. The program then breaks down all the words and gives them numerical value and tries to rebuild it back up to human readable text, a process called tokenizing. Lastly, it tests the data set to ensure that the data has been processed correctly.
 
 ## Transformer Components
 
