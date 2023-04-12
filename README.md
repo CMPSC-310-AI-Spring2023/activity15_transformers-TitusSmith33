@@ -17,4 +17,20 @@ The data found in this tutorial is a data set from Tensor Flow of a data set ful
 
 ## Transformer Components
 
-Explain the trainsformer model and add subsectios that explains what is part of the transformer does.
+This program uses a transformer model to train the data, and there is a lot that goes into a transformer model, so I have broken it up into categories:
+
+### Positional Encoding Layer
+
+Takes in both the Portuguese and English input tokens and converts them to vectors.
+
+### Add and Norm
+
+### Attention Layers
+
+### Feed Forward/Encoder
+
+### Decoder
+
+### Dense Layer
+
+### Training/Testing
