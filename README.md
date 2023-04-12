@@ -10,3 +10,11 @@
 ## Submission
 
 Submit completed Colab notebook showing generated output.
+
+## Data
+
+Preprocessing of the data/data used
+
+## Transformer Components
+
+Explain the trainsformer model and add subsectios that explains what is part of the transformer does.
