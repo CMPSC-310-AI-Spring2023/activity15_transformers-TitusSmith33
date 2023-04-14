@@ -23,14 +23,18 @@ This program uses a transformer model to train the data, and there is a lot that
 
 Takes in both the Portuguese and English input tokens and converts them to vectors.
 
-### Add and Norm
+### Add and Normalize
+
+This part of the transfomer makes the training much faster. This part also ensures that vectors are updated by attention layers rather than replace them.
 
 ### Attention Layers
+
+This is broken into four categories of attention layers: base attention layer, cross attention layer, global self attention layer, and casual self attention layer. The cross attention layer connects the encoder and the decoder. The global self attention layer deals with context sequences and propogating information. The self attention layer is similar to the global self attention layer, but deals with the output.
 
 ### Feed Forward/Encoder
 
 ### Decoder
 
-### Dense Layer
-
 ### Training/Testing
+
+After the encoder and the decoder has been constructed, the program then gives the transformer specific parameters, and the program uses those to build a model, train a model, test the model, and the examine the results.
